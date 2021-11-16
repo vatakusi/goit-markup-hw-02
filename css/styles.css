@@ -71,7 +71,7 @@ header ul {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--logo-color);
 }
@@ -115,7 +115,7 @@ nav {
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -134,7 +134,7 @@ nav {
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14px;
   letter-spacing: 0.02em;
 }
 
@@ -173,7 +173,7 @@ nav {
   text-align: center;
   font-size: 44px;
   font-weight: 900;
-  line-height: 60px;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -188,18 +188,20 @@ nav {
 
   padding: 10px 32px;
   letter-spacing: 0.06em;
-  line-height: 30px;
+  line-height: 1.87;
 
   color: var(--title-text-color);
   background-color: var(--third-backgraund-color);
   border: 1px solid black;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .button.primary {
   color: var(--second-title-color);
   background-color: var(--accent-color);
   border-color: transparent;
+  /* cursor: pointer; */
 }
 
 .button.secondary {
@@ -228,7 +230,7 @@ nav {
 .advant h3 {
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -246,7 +248,7 @@ nav {
 .we-do .section-title {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.166;
   text-align: center;
   letter-spacing: 0.03em;
   /* margin: 0, auto; */
@@ -268,7 +270,7 @@ nav {
 .team h2 {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.666;
   text-align: center;
   letter-spacing: 0.03em;
   padding-top: 95px;
@@ -388,16 +390,15 @@ nav {
 .gallery h3 {
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   margin-left: 24px;
   color: var(--title-text-color);
   margin-bottom: -10px;
 }
 .gallery p {
-  font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   margin-left: 24px;
   color: var(--primery-text-color);
