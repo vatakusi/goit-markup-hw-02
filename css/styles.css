@@ -285,7 +285,7 @@ nav {
   margin: 0, auto;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -339,6 +339,16 @@ nav {
 .where {
   color: var(--second-title-color);
 }
+
+.call {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+
 /* Portfolio page */
 /* Filters */
 .filter {
