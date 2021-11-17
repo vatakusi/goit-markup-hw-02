@@ -117,12 +117,13 @@ nav {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
-
-.menu a {
   color: var(--title-txt-color);
 }
 
+/* .menu a {
+  color: var(--title-text-color);
+}
+ */
 .menu > .item {
   padding: 0 25px;
 }
@@ -140,7 +141,7 @@ nav {
 
 .connect a,
 .call {
-  color: var(--primery-text-color);
+  color: var(--title-text-color);
 }
 
 .menu li,
@@ -242,6 +243,9 @@ nav {
 .advant li {
   margin-right: 30px;
   width: 270px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
 }
 
 /* What we do */
@@ -279,6 +283,12 @@ nav {
 
 .team h3 {
   margin: 0, auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .person {
@@ -358,6 +368,14 @@ nav {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+}
+
+.filter .button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Gallery */
