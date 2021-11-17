@@ -120,10 +120,10 @@ nav {
   color: var(--title-txt-color);
 }
 
-/* .menu a {
+.menu a {
   color: var(--title-text-color);
 }
- */
+
 .menu > .item {
   padding: 0 25px;
 }
