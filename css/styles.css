@@ -26,6 +26,10 @@
 .page {
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
   background-color: var(--backgraund-color);
   color: var(--primery-text-color);
 }
@@ -241,12 +245,8 @@ nav {
 }
 
 .advant li {
-  font-weight: normal;
-  font-size: 14px;
-  margin-right: 30px;
   width: 270px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
+  margin-right: 30px;
 }
 
 /* What we do */
@@ -322,31 +322,24 @@ nav {
   color: var(--second-title-color);
 }
 
-.foot a {
+.foot .logo {
   width: 145px;
-}
-
-.adress {
-  margin-left: 215px;
-  padding-bottom: 60px;
-  font-style: normal;
 }
 
 .adress {
   display: flex;
   flex-direction: column;
+  margin-left: 215px;
+  padding-bottom: 60px;
+  font-style: normal;
 }
 
 .where {
   color: var(--second-title-color);
 }
 
-.call {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  font-style: normal;
-  letter-spacing: 0.03em;
+.call,
+p {
   color: var(--second-title-color);
 }
 
