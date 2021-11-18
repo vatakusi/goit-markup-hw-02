@@ -139,13 +139,13 @@ nav {
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
 .connect a,
 .call {
-  color: var(--title-text-color);
+  color: var(--primery-text-color);
 }
 
 .menu li,
@@ -292,6 +292,16 @@ nav {
   color: #212121;
 }
 
+.team p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.1875;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 .person {
   height: 370px;
   width: 270px;
@@ -336,11 +346,12 @@ nav {
 }
 
 .call {
-  color: var(--second-title-color);
+  color: var(--second-text-connect);
 }
 
 .adress .call {
   width: 128px;
+  margin-bottom: -5px;
 }
 
 /* Portfolio page */
@@ -360,7 +371,7 @@ nav {
 
 .filter li {
   margin-right: 10px;
-  /* margin-bottom: 50px; */
+  margin-bottom: 50px;
   margin-top: 95px;
 }
 
