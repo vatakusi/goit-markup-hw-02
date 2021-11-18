@@ -304,13 +304,6 @@ nav {
   border-radius: 0px 0px 4px 4px;
 }
 
-.person h3 {
-  margin-bottom: 10px;
-}
-
-/* .person p {
-} */
-
 /* Footer */
 .foot {
   display: block;
@@ -319,15 +312,16 @@ nav {
 }
 
 .foot .logo {
+  width: 145px;
   padding-top: 60px;
   margin-left: 215px;
   margin-bottom: 20px;
   color: var(--second-title-color);
 }
 
-.foot .logo {
+/* .foot .logo {
   width: 145px;
-}
+} */
 
 .adress {
   display: flex;
@@ -343,6 +337,10 @@ nav {
 
 .call {
   color: var(--second-title-color);
+}
+
+.adress .call {
+  width: 128px;
 }
 
 /* Portfolio page */
