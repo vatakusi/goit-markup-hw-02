@@ -308,6 +308,9 @@ nav {
   margin-bottom: 10px;
 }
 
+/* .person p {
+} */
+
 /* Footer */
 .foot {
   display: block;
@@ -338,8 +341,7 @@ nav {
   color: var(--second-title-color);
 }
 
-.call,
-p {
+.call {
   color: var(--second-title-color);
 }
 
